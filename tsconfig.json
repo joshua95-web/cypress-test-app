@@ -20,6 +20,14 @@
     ],
     "paths": {
       "@/*": ["./*"]
+    },
+
+    "ts-node": {
+      "compilerOptions": {
+        "baseUrl": "../../node_modules",
+        "module": "ESNext",
+        "moduleResolution": "Node"
+      }
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
